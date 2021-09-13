@@ -3,7 +3,7 @@ plugins {
     id 'application'
     id 'com.google.cloud.tools.jib' version '2.7.1'
     id 'com.gorylenko.gradle-git-properties' version '2.2.4'
-    id 'io.freefair.git-version' version '5.2.1'
+    id 'io.freefair.git-version' version '6.2.0'
 }
 
 group = 'io.github.joke.demo'
