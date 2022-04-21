@@ -22,11 +22,11 @@ configurations {
 }
 
 dependencies {
-    annotationProcessor platform('org.springframework.boot:spring-boot-dependencies:2.4.2')
+    annotationProcessor platform('org.springframework.boot:spring-boot-dependencies:2.6.7')
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.springframework.boot:spring-boot-autoconfigure-processor'
 
-    implementation platform('org.springframework.boot:spring-boot-dependencies:2.3.4.RELEASE')
+    implementation platform('org.springframework.boot:spring-boot-dependencies:2.6.7')
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
     developmentRuntime 'org.springframework.boot:spring-boot-devtools'
